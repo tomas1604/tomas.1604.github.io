@@ -1,0 +1,56 @@
+.b1, .b2, .b3 {
+    background-color: black;
+}
+
+.head_style {
+    color: orange;
+}
+
+.intro {
+    color: orange;
+}
+
+.welcome {
+    color: cornflowerblue;
+}
+
+.name, .intro_me, .form {
+    color: darkcyan;
+}
+
+.descrip {
+    color: darkmagenta;
+}
+
+.field {
+    background-color: orange;
+}
+
+body {  
+    height: 125vh;  
+    margin-top: 80px;  
+    padding: 30px;  
+    background-size: cover;  
+    font-family: sans-serif;  
+}  
+header {  
+    background-color: orange;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 0;  
+    height: 30px;  
+    display: flex;  
+    align-items: center;  
+    box-shadow: 0 0 25px 0 black;  
+}  
+header * {  
+    display: inline;  
+}  
+header li {  
+    margin: 20px;  
+}  
+header li a {  
+    color: white;  
+    text-decoration: none;  
+}  
